@@ -1,0 +1,238 @@
+body
+{
+  background-repeat: no-repeat;
+}
+.shapka
+{
+  background-color: #352618be;
+  width: 100%;
+  height: 60px;
+  left:0px;
+  top:0;
+  position:absolute;
+  opacity: 50%;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.text1
+{
+  opacity:100;
+  font-size: 1.8cm;
+  font-family: 'Leira';
+  position: absolute;
+  top:-80px;
+  color: #b1b9ce65;
+  left:37%;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 29.4%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 12%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 2.6%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+@font-face {
+  font-family: Leira;
+  src: url(leira-lite.ttf);
+}
+.sec
+{
+  position: absolute;
+  top:600px;
+  left:600px;
+  color: white;
+}
+.sub
+{
+  position: absolute;
+  top:400px;
+  left:400px;
+  color: white;
+}
+.tri
+{
+  position: absolute;
+  top:800px;
+  left:600px;
+  color: white;
+}
+.fff
+{
+  top:540px;
+  position: absolute;
+  left: 750px;
+}
+.img1
+{
+  width:300px;
+  height: 300px;
+  top:630px;
+  position: absolute;
+  left: 750px;
+}
+.img2
+{
+  width:300px;
+  height: 300px;
+  top:630px;
+  position: absolute;
+  left: 750px;
+}
+.lastdiv
+{
+  width:850px;
+  height:400px;
+  position:absolute;
+  left:540px;
+  top:320px;
+  background-color:rgb(0,0,0,0.2);
+}
+.sorrytext
+{
+  padding:20px;
+  font-size:0.7cm;
+  text-align:center;
+  font-family:"Arial";
+  opacity:1;
+}
+.podval
+{
+  height:60px;
+  opacity:60%;
+  width:100%;
+  left:0px;
+  top:908px;
+  position:absolute;
+  background-color:#352618be;
+}
+.podvaltext
+{
+  font-size:0.5cm;
+  left:42%;
+  bottom:26px;
+  position:absolute;
+}
+.follow
+{
+  font-size:0.5cm;
+  left:39%;
+  bottom:2px;
+  position:absolute;
+}
+.gmaill
+{
+  position:absolute;
+  width:45px;
+  height:45px;
+  left:44.5%;
+  top:920px;
+  bottom:4px;
+  opacity:80%;
+}
+.inst
+{
+  position:absolute;
+  width:33px;
+  top:927px;
+  height:33px;
+  left:48%;
+  bottom:10px;
+  opacity:70%;
+}
+.telegramm
+{
+  position:absolute;
+  width:33px;
+  height:33px;
+  top:927px;
+  left:51%;
+  bottom:10px;
+  opacity:70%;
+}
+.ff
+{
+  background: url(.)
+}
