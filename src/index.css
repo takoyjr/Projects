@@ -1,0 +1,64 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body,html {
+    width:100vw;
+    height: 100vh;
+    background-color: #06283D;
+}
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+}
+
+/* fonts */
+
+.ff-Bold {
+    font-family: Poppins-Bold;
+}
+
+.ff-SemiBold {
+    font-family: Poppins-SemiBold;
+}
+
+.ff-Medium {
+    font-family: Poppins-Medium;
+}
+
+.ff-Regular {
+    font-family: Poppins-Regular;
+}
+
+/* colors */
+
+.text-F5F5DC {
+    color:#F5F5DC;
+}
+
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("/public/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("/public/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("/public/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("/public/fonts/Poppins-Regular.ttf");
+}
