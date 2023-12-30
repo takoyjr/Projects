@@ -1,8 +1,19 @@
-import { Main } from './components/Main'
+import { Weather } from './components/Weather'
+import { Converter } from './components/Converter'
 
 function App() {
   return (
-    <Main />
+    <div >
+      <div>
+      <Weather />
+      </div>
+      <div className='h-screen w-full bg-white flex items-center justify-center'>
+        <Converter />
+      </div>
+      <div>
+        
+      </div>
+    </div>
   );
 }
 

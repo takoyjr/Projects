@@ -18,7 +18,7 @@ import {
 
 type FlexDirection = "row" | "column";
 
-export function Main() {
+export function Weather() {
   const date = useDate().currentDate.toLocaleDateString("en", {
     day: "2-digit",
     month: "short",
